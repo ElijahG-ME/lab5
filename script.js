@@ -49,9 +49,6 @@ function validate(elements){
 
 function main(){
     document.addEventListener("DOMContentLoaded", () => {
-        console.log("buh");
-        
-
         const elements = document.querySelectorAll("#username, #email, #password");
 
         elements.forEach((element) => {
@@ -134,7 +131,6 @@ function main(){
             document.getElementById("image-caption").textContent = `You selected: ${tile.dataset.city}`;
         })
     });
-
 
 }
 main();
